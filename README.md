@@ -3,7 +3,7 @@
 Quatro aplicativos Android feitos como exercício de layout e lógica. Cada pasta é um
 projeto independente, que abre direto no Android Studio.
 
-Java · `minSdk 24` · `targetSdk 35` · AppCompat · Gradle 9.7.1 · AGP 9.4.1
+Java · `minSdk 24` · `targetSdk 34` · AppCompat · Gradle 9.7.1 · AGP 9.4.1
 
 ---
 
@@ -80,11 +80,17 @@ Os quatro seguem o mesmo padrão: cores em `colors.xml` (`primaria`, `primaria_e
 
 <img src="docs/aviso.png" width="260">
 
-## Detalhe técnico
+## Detalhes técnicos
 
-Todo `ScrollView` usa `android:fitsSystemWindows="true"`. Sem isso, no Android 15 o
-modo edge-to-edge é obrigatório e o topo da tela fica escondido atrás da barra de
-título.
+Todo `ScrollView` usa `android:fitsSystemWindows="true"`, e cada Activity declara
+`android:windowSoftInputMode="adjustResize"`. Esse segundo atributo faz a janela
+encolher quando o teclado aparece. Sem ele o teclado cobre os últimos campos e o
+botão, e não dá para alcançá-los nem rolando a tela.
+
+O `targetSdk` é 34 de propósito. Com 35, o Android 15 obriga o modo edge-to-edge e
+passa a ignorar o `adjustResize`: a janela não encolhe mais e o problema do teclado
+volta. Resolver isso mantendo o 35 exigiria tratar as *insets* da janela em código,
+o que foge do nível do exercício.
 
 ## Como rodar
 
