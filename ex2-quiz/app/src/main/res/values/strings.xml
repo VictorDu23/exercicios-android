@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz de Trânsito</string>
+
+    <string name="contador">Questão %1$d de %2$d</string>
+    <string name="pergunta">Q%1$d - Qual o significado desta placa?</string>
+    <string name="botao_proxima">Próxima pergunta</string>
+
+    <string name="msg_acerto">Resposta correta!</string>
+    <string name="msg_erro">Resposta errada!</string>
+    <string name="msg_escolha">Escolha uma alternativa primeiro.</string>
+    <string name="msg_fim">Fim do quiz! Você acertou %1$d de %2$d</string>
+
+    <string-array name="opcoes_q1">
+        <item>Ponte a frente</item>
+        <item>Estreitamento de pista</item>
+        <item>Declive acentuado</item>
+        <item>Redução de largura de veículos</item>
+    </string-array>
+
+    <string-array name="opcoes_q2">
+        <item>Dê a preferência</item>
+        <item>Parada obrigatória</item>
+        <item>Proibido seguir em frente</item>
+        <item>Sentido obrigatório</item>
+    </string-array>
+
+    <string-array name="opcoes_q3">
+        <item>Proibido estacionar</item>
+        <item>Proibido parar e estacionar</item>
+        <item>Estacionamento regulamentado</item>
+        <item>Proibido trânsito de caminhões</item>
+    </string-array>
+
+    <string-array name="opcoes_q4">
+        <item>Curva acentuada à direita</item>
+        <item>Curva acentuada à esquerda</item>
+        <item>Pista sinuosa</item>
+        <item>Bifurcação em Y</item>
+    </string-array>
+
+    <string-array name="opcoes_q5">
+        <item>Área escolar</item>
+        <item>Passagem sinalizada de pedestres</item>
+        <item>Pedestres à esquerda</item>
+        <item>Trânsito de ciclistas</item>
+    </string-array>
+</resources>

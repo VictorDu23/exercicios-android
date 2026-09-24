@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaria">#1B7FC4</color>
+    <color name="primaria_escura">#145F92</color>
+    <color name="fundo">#FFFFFF</color>
+    <color name="rotulo">#666666</color>
+</resources>

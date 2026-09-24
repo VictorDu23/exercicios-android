@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Poupança Fácil</string>
+
+    <string name="zero">0</string>
+
+    <string name="rotulo_valor_inicial">Valor inicial (R$)</string>
+    <string name="rotulo_aplicacao">Aplicação mensal (R$)</string>
+    <string name="rotulo_tempo">Tempo da aplicação (meses)</string>
+    <string name="rotulo_taxa">Taxa mensal (decimal, ex: 0.02)</string>
+
+    <string name="botao_calcular">Calcular</string>
+
+    <string name="aviso_valor">Informe o valor inicial ou a aplicação mensal.</string>
+    <string name="aviso_tempo">Informe o tempo da aplicação.</string>
+    <string name="aviso_taxa">Use a taxa em decimal: 0.02 para 2% ao mês.</string>
+    <string name="resultado">Total investido: R$ %1$.2f\nJuros: R$ %2$.2f\nMontante final: R$ %3$.2f</string>
+</resources>

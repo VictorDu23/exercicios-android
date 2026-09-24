@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="72dp"
+    android:viewportWidth="240"
+    android:viewportHeight="72">
+
+    <path
+        android:fillColor="#C98E00"
+        android:pathData="M70,63 a18,5 0 1,0 36,0 a18,5 0 1,0 -36,0 z" />
+    <path
+        android:fillColor="#C98E00"
+        android:pathData="M70,56 h36 v7 h-36 z" />
+    <path
+        android:fillColor="#F5B400"
+        android:pathData="M70,56 a18,5 0 1,0 36,0 a18,5 0 1,0 -36,0 z" />
+
+    <path
+        android:fillColor="#C98E00"
+        android:pathData="M70,53 a18,5 0 1,0 36,0 a18,5 0 1,0 -36,0 z" />
+    <path
+        android:fillColor="#C98E00"
+        android:pathData="M70,46 h36 v7 h-36 z" />
+    <path
+        android:fillColor="#F5B400"
+        android:pathData="M70,46 a18,5 0 1,0 36,0 a18,5 0 1,0 -36,0 z" />
+
+    <path
+        android:fillColor="#C98E00"
+        android:pathData="M70,43 a18,5 0 1,0 36,0 a18,5 0 1,0 -36,0 z" />
+    <path
+        android:fillColor="#C98E00"
+        android:pathData="M70,36 h36 v7 h-36 z" />
+    <path
+        android:fillColor="#F5B400"
+        android:pathData="M70,36 a18,5 0 1,0 36,0 a18,5 0 1,0 -36,0 z" />
+
+    <path
+        android:fillColor="#B0BEC5"
+        android:pathData="M118,64 h52 v2 h-52 z" />
+    <path
+        android:fillColor="#90CAF9"
+        android:pathData="M122,50 h10 v14 h-10 z" />
+    <path
+        android:fillColor="#42A5F5"
+        android:pathData="M138,40 h10 v24 h-10 z" />
+    <path
+        android:fillColor="#1B7FC4"
+        android:pathData="M154,28 h10 v36 h-10 z" />
+
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#1B7FC4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:strokeWidth="3"
+        android:pathData="M116,40 L134,28 L148,30 L164.6,11.4" />
+    <path
+        android:fillColor="#1B7FC4"
+        android:pathData="M170,5.5 L167.6,14.1 L161.7,8.8 Z" />
+
+</vector>

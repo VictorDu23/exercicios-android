@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaria">#2E9E4F</color>
+    <color name="primaria_escura">#22743A</color>
+    <color name="fundo">#FFFFFF</color>
+    <color name="rotulo">#666666</color>
+    <color name="acerto">#1B5E20</color>
+    <color name="erro">#C62828</color>
+    <color name="secundaria">#9E9E9E</color>
+</resources>

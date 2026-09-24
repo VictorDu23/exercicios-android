@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fundo"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginBottom="16dp"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/logo_poupanca" />
+
+        <TextView
+            style="@style/Rotulo"
+            android:text="@string/rotulo_valor_inicial" />
+
+        <EditText
+            android:id="@+id/editValorInicial"
+            style="@style/Campo"
+            android:inputType="numberDecimal"
+            android:text="@string/zero" />
+
+        <TextView
+            style="@style/Rotulo"
+            android:text="@string/rotulo_aplicacao" />
+
+        <EditText
+            android:id="@+id/editAplicacaoMensal"
+            style="@style/Campo"
+            android:inputType="numberDecimal"
+            android:text="@string/zero" />
+
+        <TextView
+            style="@style/Rotulo"
+            android:text="@string/rotulo_tempo" />
+
+        <EditText
+            android:id="@+id/editTempo"
+            style="@style/Campo"
+            android:inputType="number"
+            android:text="@string/zero" />
+
+        <TextView
+            style="@style/Rotulo"
+            android:text="@string/rotulo_taxa" />
+
+        <EditText
+            android:id="@+id/editTaxa"
+            style="@style/Campo"
+            android:inputType="numberDecimal"
+            android:text="@string/zero" />
+
+        <Button
+            android:id="@+id/btnCalcular"
+            style="@style/BotaoPrincipal"
+            android:text="@string/botao_calcular" />
+
+        <TextView
+            android:id="@+id/txtResultado"
+            style="@style/Resultado" />
+
+    </LinearLayout>
+</ScrollView>

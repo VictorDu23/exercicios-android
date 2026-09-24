@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pizza Delivery</string>
+
+    <string name="zero">0</string>
+
+    <string name="horario">De segunda a domingo, 18:00 as 02:00. Entrega em até 30 min.</string>
+    <string name="chamada">Escolha o sabor e a quantidade:</string>
+
+    <string name="sabor_lombinho">Lombinho - R$ 45,00</string>
+    <string name="sabor_marguerita">Marguerita - R$ 40,00</string>
+    <string name="sabor_calabresa">Calabresa - R$ 42,00</string>
+    <string name="sabor_pepperoni">Pepperoni - R$ 48,00</string>
+
+    <string name="botao_pedido">Fazer pedido</string>
+
+    <string name="aviso_vazio">Informe a quantidade de pelo menos uma pizza.</string>
+    <string name="msg_pedido">Pedido realizado!</string>
+    <string name="resumo">Pizzas: %1$d\nSubtotal: R$ %2$.2f\nEntrega: R$ %3$.2f\nTotal: R$ %4$.2f</string>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Balaio de Lenha</string>
+
+    <string name="zero">0</string>
+
+    <string name="rotulo_consumo">Consumo total (R$)</string>
+    <string name="rotulo_couvert">Couvert artístico (R$)</string>
+    <string name="rotulo_pessoas">Dividir a conta por (pessoas)</string>
+
+    <string name="botao_calcular">Calcular conta final</string>
+
+    <string name="rotulo_taxa" formatted="false">Taxa de serviço (10%)</string>
+    <string name="rotulo_total">Conta total</string>
+    <string name="rotulo_por_pessoa">Valor por pessoa</string>
+
+    <string name="valor">R$ %1$.2f</string>
+
+    <string name="aviso_consumo">Informe o consumo total.</string>
+    <string name="aviso_pessoas">Informe por quantas pessoas dividir.</string>
+</resources>
