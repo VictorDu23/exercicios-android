@@ -101,7 +101,8 @@ o que foge do nível do exercício.
 O arquivo `local.properties` não vai no repositório porque aponta para o SDK de uma
 máquina específica. O Android Studio recria ele sozinho.
 
-A pasta `apks/` traz os quatro aplicativos já compilados, prontos para instalar no
+Os quatro aplicativos já compilados estão na pasta `apks/` e na aba **Releases** do
+GitHub, prontos para instalar no
 celular (é preciso liberar "instalar apps de fontes desconhecidas").
 
 ---
@@ -128,3 +129,10 @@ As placas do quiz vieram do Wikimedia Commons:
 
 Os ícones dos aplicativos e as ilustrações de cabeçalho foram desenhados em vetor para
 este trabalho.
+
+---
+
+## Desenvolvedores
+
+- Felipe Neres Vieira
+- Victor Eduardo Pedro De Oliveira
